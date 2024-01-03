@@ -1,16 +1,14 @@
 # ID3
 
-Алгоритм ID3 (Iterative Dichotomiser 3) является методом построения деревьев решений в машинном обучении. Он используется для классификации данных на основе их атрибутов.
+The ID3 (Iterative Dichotomiser 3) algorithm is a method used in machine learning to construct decision trees. It is employed for data classification based on their attributes.
 
-Основная идея ID3 заключается в выборе лучшего атрибута для разделения данных на наиболее чистые подгруппы (наиболее однородные классы). Этот процесс повторяется рекурсивно до тех пор, пока все данные не будут классифицированы или пока не будут выполнены определенные условия остановки.
+The fundamental concept behind ID3 involves selecting the best attribute to split the data into the most homogeneous subgroups (the most pure classes). This process iterates recursively until all data is classified or specific stopping conditions are met.
 
-Выбор лучшего атрибута происходит с использованием меры информативности, такой как энтропия или прирост информации (information gain), которая помогает определить, какой атрибут лучше всего разделяет данные.
+The selection of the best attribute is determined by using a measure of informativeness, such as entropy or information gain, which aids in determining the attribute that best separates the data.
 
-ID3 имеет некоторые ограничения, такие как склонность к переобучению при большом количестве атрибутов или неспособность обрабатывать отсутствующие значения.
+ID3 has certain limitations, such as a tendency to overfit with a high number of attributes or an inability to handle missing values.
 
-Несмотря на это, ID3 является базовым алгоритмом, который послужил основой для более продвинутых методов построения деревьев решений, таких как C4.5 и CART.
-
-Если у тебя есть конкретные вопросы о реализации алгоритма ID3 или его применении, буду рад помочь!
+Nevertheless, ID3 serves as a foundational algorithm that paved the way for more advanced decision tree construction methods like C4.5 and CART.
 
 **[CODE](main.py)**
 
